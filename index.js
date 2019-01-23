@@ -9,7 +9,7 @@ var prefix = "s!";
 
 
 //Login + connexion du bot :
-client.login("");
+client.login(process.env.TOKEN);
 
 
 //Statut
